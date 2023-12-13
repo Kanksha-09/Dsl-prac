@@ -90,13 +90,13 @@ void cinemax::book()
     string y;
     label:
 
-    cout<<"\n\n\nEnter seat number to be booked\n";
+    cout<<"\n\n\nEnter seat number to be booked [ONLY NUMBERS]: \n";
     cin>>x;
-    cout<<"Enter your id number\n";
+    cout<<"Enter your id number: \n";
 	cin>>y;
     if(x<1||x>70)
     {
-        cout<<"Enter correct seat number to book (1-70)\n";
+        cout<<"Enter correct seat number to book (1-70): \n";
         goto label;
     }
     node *temp;
