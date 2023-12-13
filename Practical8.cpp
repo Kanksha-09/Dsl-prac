@@ -203,7 +203,7 @@ int main()
     char c='y';
     while(c=='y')
     {	obj.display();
-		cout<<"\n		*********************************************\n";
+		cout<<"\n\n		*********************************************\n";
 		cout<<"			  CINEMAX MOVIE THEATRE		  \n";
 		cout<<"		*********************************************\n";
 	    cout<<"\nEnter choice\n1.Current seat status\n2.Book seat \n3.Available seat\n4.Cancel seat\n";
